@@ -1,0 +1,17 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore dataset files
+datasets/
+
+# Ignore environment files
+.env
+
+# Ignore virtual environment
+capstone-environment/
+
+# Ignore model files and directories
+models/saved_models/
+*.h5
+*.keras
