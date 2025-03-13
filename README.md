@@ -31,11 +31,11 @@ main_project/
 ├── README.md
 └── requirements.txt
 ```
-
 ## Model Files
-Model files are not included in this repository due to size limitations. After cloning:
+The trained models are not included in this repository due to size limitations (>200MB). 
 
-1. Create directory:
+### Training New Models
+1. Create the required directory:
    ```bash
    mkdir -p models/saved_models
    ```
@@ -45,7 +45,12 @@ Model files are not included in this repository due to size limitations. After c
    python src/models/training.py
    ```
 
-The trained model will be saved in `models/saved_models/`.
+### Accessing Pre-trained Models
+Contact project maintainers for access to pre-trained models:
+- waste_classifier.weights.h5 (214MB)
+- waste_classifier_full.keras (214MB)
+
+Place these files in the `models/saved_models/` directory after obtaining them.
 
 ## Installation
 To install the required dependencies, run:
